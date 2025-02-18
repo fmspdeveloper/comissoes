@@ -1,3 +1,5 @@
+
+
 function calcular() {
   var comissao = (parseFloat($("#valorPorcentagem").val()) / 100) * parseFloat($("#valor_vendedor").val());
   $("#comissao").val(comissao);
