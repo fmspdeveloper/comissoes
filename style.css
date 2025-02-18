@@ -1,0 +1,45 @@
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+.comissao{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.comissao table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.comissao table th{
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+.comissao table td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.comissao table tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+.comissao table tr:hover{
+    background-color: #f9f9f9;
+}
+.botao{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
